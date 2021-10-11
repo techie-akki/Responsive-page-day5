@@ -1,0 +1,83 @@
+body {
+  font-size: 1.25rem;
+  color: #707070;
+  margin: 0;
+  /* background: pink; */
+}
+/* from minimum width of 650px and bigger
+@media (min-width: 500px) and (orientation: landscape) {
+  body {
+    background: purple;
+  }
+} */
+/* from minimum width of 950px and max 1000px */
+/* @media (min-width: 950px) and (max-width: 1000px) {
+  body {
+    background: orange;
+  }
+} */
+
+/* Typography */
+
+h1 {
+  font-size: 3rem;
+  color: #212614;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1 span {
+  color: #b7832f;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* Layout */
+.container {
+  width: 95%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 70%;
+}
+
+.col-bg {
+  background: #212614;
+  color: #fff;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 650px) {
+  .column {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+  }
+}
